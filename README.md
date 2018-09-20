@@ -40,10 +40,10 @@
 > To get task's state (whether its still queued, running or finished)  
 >> http://HOST/tsp.php?id=1&op=state  
   
-> To get a tasks's output file  
+> To get a task's output file  
 >> http://HOST/tsp.php?id=1&op=of  
   
-> To get a tasks's output data  
+> To get a task's output data  
 >> http://HOST/tsp.php?id=1&op=data  
   
 > To kill a running task  
