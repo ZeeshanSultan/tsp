@@ -1,5 +1,8 @@
 # Task Spooler based PHP API  
+  To run bash commands from web in a queue like manner.  
+    
   
+  Example scenario: I connected a command-line scanner to a web interface and used this to start multiple scans at the same time. see if the scan is completed and updated the response with the data returned from that command once the scan was completed.
 ## Pre-requisites  
  > Apache `apt-get install apache2`  
  > PHP `apt-get install php libapache2-mod-php`  
