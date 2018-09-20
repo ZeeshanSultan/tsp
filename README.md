@@ -28,26 +28,26 @@
   
 ### Dummy Requests  
 > To get all tasks  
->> http://<host>/tsp.php?fetch_commands=1  
+>> http://HOST/tsp.php?fetch_commands=1  
 
 > To create a new task  
->> http://<host>/tsp.php?command=Base64EncodedCommand  
->> http://<host>/tsp.php?command=bHMgLWxhaA==  
+>> http://HOST/tsp.php?command=Base64EncodedCommand  
+>> http://HOST/tsp.php?command=bHMgLWxhaA==  
   
 > To get task's state (whether its still queued, running or finished)  
->> http://<host>/tsp.php?id=1&op=state  
+>> http://HOST/tsp.php?id=1&op=state  
   
 > To get a tasks's output file  
->> http://<host>/tsp.php?id=1&op=of  
+>> http://HOST/tsp.php?id=1&op=of  
   
 > To get a tasks's output data  
->> http://<host>/tsp.php?id=1&op=data  
+>> http://HOST/tsp.php?id=1&op=data  
   
 > To kill a running task  
->> http://<host>/tsp.php?id=1&op=kill  
+>> http://HOST/tsp.php?id=1&op=kill  
   
 > To prioritize a task in queue  
->> http://<host>/tsp.php?id=1&op=urgent  
+>> http://HOST/tsp.php?id=1&op=urgent  
   
   
 ** Note: creating a new task will return task id **  
