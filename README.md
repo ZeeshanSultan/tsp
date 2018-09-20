@@ -9,7 +9,7 @@
  > task-spooler `apt-get install task-spooler`  
   
 ## Installation  
-** Install all Pre-Requisites **  
+**Install Pre-requisites**  
 > `git clone https://github.com/ZeeshanSultan/tsp tsp`  
 > `mv tsp/tsp.php /var/www/html`  
 > `sudo chmod 777 /var/www/html/tsp.php`  
